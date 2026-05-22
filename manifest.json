@@ -1,0 +1,244 @@
+{
+  "categories": [
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "icon": "🔧",
+      "description": "Infrastructure, automation & cloud engineering",
+      "groups": [
+        {
+          "label": "Docker",
+          "icon": "🐳",
+          "topics": [
+            {
+              "id": "docker-basics",
+              "label": "Docker Basics",
+              "file": "devops/docker/basics.md"
+            },
+            {
+              "id": "docker-compose",
+              "label": "Docker Compose",
+              "file": "devops/docker/compose.md"
+            },
+            {
+              "id": "docker-best-practices",
+              "label": "Best Practices",
+              "file": "devops/docker/best-practices.md"
+            }
+          ]
+        },
+        {
+          "label": "Kubernetes",
+          "icon": "☸️",
+          "topics": [
+            {
+              "id": "k8s-architecture",
+              "label": "K8s Architecture",
+              "file": "devops/kubernetes/architecture.md"
+            },
+            {
+              "id": "k8s-pods",
+              "label": "Pods & Services",
+              "file": "devops/kubernetes/pods-and-services.md"
+            },
+            {
+              "id": "k8s-helm",
+              "label": "Helm Charts",
+              "file": "devops/kubernetes/helm.md"
+            }
+          ]
+        },
+        {
+          "label": "CI/CD",
+          "icon": "🔄",
+          "topics": [
+            {
+              "id": "jenkins",
+              "label": "Jenkins",
+              "file": "devops/ci-cd/jenkins.md"
+            },
+            {
+              "id": "github-actions",
+              "label": "GitHub Actions",
+              "file": "devops/ci-cd/github-actions.md"
+            },
+            {
+              "id": "gitlab-ci",
+              "label": "GitLab CI",
+              "file": "devops/ci-cd/gitlab-ci.md"
+            }
+          ]
+        },
+        {
+          "label": "Terraform",
+          "icon": "🏗️",
+          "topics": [
+            {
+              "id": "tf-basics",
+              "label": "Terraform Basics",
+              "file": "devops/terraform/basics.md"
+            },
+            {
+              "id": "tf-modules",
+              "label": "Modules & State",
+              "file": "devops/terraform/modules.md"
+            }
+          ]
+        },
+        {
+          "label": "Monitoring",
+          "icon": "📊",
+          "topics": [
+            {
+              "id": "prometheus",
+              "label": "Prometheus",
+              "file": "devops/monitoring/prometheus.md"
+            },
+            {
+              "id": "grafana",
+              "label": "Grafana",
+              "file": "devops/monitoring/grafana.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "label": "Linux",
+      "icon": "🐧",
+      "description": "Operating system administration, shell scripting, and commands",
+      "groups": [
+        {
+          "label": "System & Commands",
+          "icon": "🐚",
+          "topics": [
+            {
+              "id": "linux-commands",
+              "label": "Essential Commands",
+              "file": "linux/commands.md"
+            },
+            {
+              "id": "shell-scripting",
+              "label": "Shell Scripting",
+              "file": "linux/shell-scripting.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "label": "Entertainment",
+      "icon": "📺",
+      "description": "Photo, Video & Display technologies",
+      "groups": [
+        {
+          "label": "Media Technologies",
+          "icon": "⚡",
+          "topics": [
+            {
+              "id": "pixels-and-resolution",
+              "label": "Pixels & Resolution",
+              "file": "media-tech/pixels-and-resolution.md"
+            },
+            {
+              "id": "display-panels",
+              "label": "Display Panels",
+              "file": "media-tech/display-panels.md"
+            },
+            {
+              "id": "hdr-formats",
+              "label": "HDR & Dolby Vision",
+              "file": "media-tech/hdr-formats.md"
+            },
+            {
+              "id": "color-depth",
+              "label": "Color Depth (8-bit vs 10-bit)",
+              "file": "media-tech/color-depth.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audiophile",
+      "label": "Audiophile",
+      "icon": "🎧",
+      "description": "High-fidelity audio & sound gear",
+      "groups": [
+        {
+          "label": "Headphones",
+          "icon": "🎵",
+          "topics": [
+            {
+              "id": "headphone-guide",
+              "label": "Headphone Guide",
+              "file": "audiophile/headphones.md"
+            }
+          ]
+        },
+        {
+          "label": "DACs & Amps",
+          "icon": "🔊",
+          "topics": [
+            {
+              "id": "dac-amp-basics",
+              "label": "DAC/Amp Basics",
+              "file": "audiophile/dacs.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motorbikes",
+      "label": "Motorbikes",
+      "icon": "🏍️",
+      "description": "Rides, maintenance & motorcycle culture",
+      "groups": [
+        {
+          "label": "Maintenance",
+          "icon": "🔩",
+          "topics": [
+            {
+              "id": "basic-maintenance",
+              "label": "Basic Maintenance",
+              "file": "motorbikes/maintenance.md"
+            }
+          ]
+        },
+        {
+          "label": "Gear & Safety",
+          "icon": "🪖",
+          "topics": [
+            {
+              "id": "riding-gear",
+              "label": "Riding Gear Guide",
+              "file": "motorbikes/gear-guide.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "car-racing",
+      "label": "Car Racing",
+      "icon": "🏎️",
+      "description": "Explore different types of car racing and motorsports",
+      "groups": [
+        {
+          "label": "Race Types",
+          "icon": "🏁",
+          "topics": [
+            {
+              "id": "car-race-types",
+              "label": "Car Race Types",
+              "file": "car-race-type/race-types.md"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
