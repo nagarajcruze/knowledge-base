@@ -7,9 +7,25 @@
       "description": "Infrastructure, automation & cloud engineering",
       "groups": [
         {
+          "label": "General",
+          "icon": "⚙️",
+          "topics": [
+            {
+              "id": "devops-ipq",
+              "label": "DevOps IPQ",
+              "file": "devops/devops-IPQ.md"
+            }
+          ]
+        },
+        {
           "label": "Docker",
           "icon": "🐳",
           "topics": [
+            {
+              "id": "docker-ipq",
+              "label": "Docker IPQ",
+              "file": "devops/docker/docker-IPQ.md"
+            },
             {
               "id": "docker-basics",
               "label": "Docker Basics",
@@ -32,19 +48,57 @@
           "icon": "☸️",
           "topics": [
             {
-              "id": "k8s-architecture",
-              "label": "K8s Architecture",
-              "file": "devops/kubernetes/architecture.md"
+              "id": "k8s-ipq",
+              "label": "Kubernetes IPQ",
+              "file": "devops/kubernetes/kubernetes-IPQ.md"
             },
             {
-              "id": "k8s-pods",
-              "label": "Pods & Services",
-              "file": "devops/kubernetes/pods-and-services.md"
+              "id": "k8s-guide",
+              "label": "Kubernetes Guide",
+              "file": "devops/kubernetes/kubernetes.md"
             },
             {
               "id": "k8s-helm",
               "label": "Helm Charts",
               "file": "devops/kubernetes/helm.md"
+            }
+          ]
+        },
+        {
+          "label": "Ansible",
+          "icon": "🤖",
+          "topics": [
+            {
+              "id": "ansible-ipq",
+              "label": "Ansible IPQ",
+              "file": "devops/ansible/ansible-IPQ.md"
+            },
+            {
+              "id": "ansible-basics",
+              "label": "Ansible Notes",
+              "file": "devops/ansible/ansible.md"
+            }
+          ]
+        },
+        {
+          "label": "AWS",
+          "icon": "☁️",
+          "topics": [
+            {
+              "id": "aws-cloud-practitioner",
+              "label": "AWS Cloud Practitioner",
+              "file": "devops/aws/aws.md"
+            }
+          ]
+        },
+        {
+          "label": "SRE",
+          "icon": "🛡️",
+          "topics": [
+            {
+              "id": "sre-notes",
+              "label": "SRE Notes",
+              "file": "devops/sre/sre.md"
             }
           ]
         },
@@ -61,11 +115,6 @@
               "id": "github-actions",
               "label": "GitHub Actions",
               "file": "devops/ci-cd/github-actions.md"
-            },
-            {
-              "id": "gitlab-ci",
-              "label": "GitLab CI",
-              "file": "devops/ci-cd/gitlab-ci.md"
             }
           ]
         },
@@ -122,6 +171,49 @@
               "id": "shell-scripting",
               "label": "Shell Scripting",
               "file": "linux/shell-scripting.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network",
+      "label": "Network",
+      "icon": "🌐",
+      "description": "Networking concepts, subnetting, and DNS",
+      "groups": [
+        {
+          "label": "Core Networking",
+          "icon": "🌐",
+          "topics": [
+            {
+              "id": "subnetting",
+              "label": "Subnetting Notes",
+              "file": "network/subnetting.md"
+            },
+            {
+              "id": "dns",
+              "label": "DNS Notes",
+              "file": "network/dns.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homelab",
+      "label": "Homelab",
+      "icon": "🏠",
+      "description": "Self-hosting, cluster setups, and home infrastructure",
+      "groups": [
+        {
+          "label": "Storage",
+          "icon": "💾",
+          "topics": [
+            {
+              "id": "glusterfs",
+              "label": "GlusterFS Guide",
+              "file": "homelab/glusterfs.md"
             }
           ]
         }
@@ -235,6 +327,47 @@
               "id": "car-race-types",
               "label": "Car Race Types",
               "file": "car-race-type/race-types.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance",
+      "icon": "📈",
+      "description": "Personal finance, mutual funds, and stock market notes",
+      "groups": [
+        {
+          "label": "Personal Finance",
+          "icon": "💼",
+          "topics": [
+            {
+              "id": "personal-finance",
+              "label": "Personal Finance",
+              "file": "finance/personal-finance.md"
+            }
+          ]
+        },
+        {
+          "label": "Mutual Funds",
+          "icon": "☕",
+          "topics": [
+            {
+              "id": "mutual-funds",
+              "label": "Mutual Funds",
+              "file": "finance/mutual-funds.md"
+            }
+          ]
+        },
+        {
+          "label": "Stock Market",
+          "icon": "💰",
+          "topics": [
+            {
+              "id": "stock-market",
+              "label": "Stock Market Knowledge",
+              "file": "finance/stock-market.md"
             }
           ]
         }
