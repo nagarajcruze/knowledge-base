@@ -18,28 +18,38 @@
           ]
         },
         {
-          "label": "Docker",
+          "label": "Containers",
           "icon": "🐳",
           "topics": [
             {
               "id": "docker-ipq",
               "label": "Docker IPQ",
-              "file": "devops/docker/docker-IPQ.md"
+              "file": "devops/containers/docker-IPQ.md"
             },
             {
               "id": "docker-basics",
               "label": "Docker Basics",
-              "file": "devops/docker/basics.md"
+              "file": "devops/containers/basics.md"
+            },
+            {
+              "id": "docker-guide",
+              "label": "Docker Guide",
+              "file": "devops/containers/docker.md"
             },
             {
               "id": "docker-compose",
               "label": "Docker Compose",
-              "file": "devops/docker/compose.md"
+              "file": "devops/containers/docker-compose.md"
             },
             {
               "id": "docker-best-practices",
               "label": "Best Practices",
-              "file": "devops/docker/best-practices.md"
+              "file": "devops/containers/best-practices.md"
+            },
+            {
+              "id": "podman-guide",
+              "label": "Podman Guide",
+              "file": "devops/containers/podman.md"
             }
           ]
         },
@@ -56,6 +66,16 @@
               "id": "k8s-guide",
               "label": "Kubernetes Guide",
               "file": "devops/kubernetes/kubernetes.md"
+            },
+            {
+              "id": "k8s-architecture",
+              "label": "Kubernetes Architecture",
+              "file": "devops/kubernetes/architecture.md"
+            },
+            {
+              "id": "k8s-pods-services",
+              "label": "Pods & Services",
+              "file": "devops/kubernetes/pods-and-services.md"
             },
             {
               "id": "k8s-helm",
@@ -81,9 +101,14 @@
           ]
         },
         {
-          "label": "AWS",
+          "label": "Cloud & Virtualization",
           "icon": "☁️",
           "topics": [
+            {
+              "id": "cloud-basics",
+              "label": "Cloud Computing Basics",
+              "file": "devops/aws/cloud-basics.md"
+            },
             {
               "id": "aws-cloud-practitioner",
               "label": "AWS Cloud Practitioner",
@@ -99,6 +124,11 @@
               "id": "sre-notes",
               "label": "SRE Notes",
               "file": "devops/sre/sre.md"
+            },
+            {
+              "id": "linux-troubleshooting",
+              "label": "Linux Troubleshooting",
+              "file": "devops/sre/linux-troubleshooting.md"
             }
           ]
         },
@@ -115,6 +145,11 @@
               "id": "github-actions",
               "label": "GitHub Actions",
               "file": "devops/ci-cd/github-actions.md"
+            },
+            {
+              "id": "sonarqube",
+              "label": "SonarQube Notes",
+              "file": "devops/ci-cd/sonarqube.md"
             }
           ]
         },
@@ -149,6 +184,33 @@
               "file": "devops/monitoring/grafana.md"
             }
           ]
+        },
+        {
+          "label": "Artifactory",
+          "icon": "📦",
+          "topics": [
+            {
+              "id": "jfrog",
+              "label": "JFrog Artifactory",
+              "file": "devops/artifactory/jfrog.md"
+            }
+          ]
+        },
+        {
+          "label": "Git",
+          "icon": "🐙",
+          "topics": [
+            {
+              "id": "git-basics",
+              "label": "Git Basics",
+              "file": "devops/git/git.md"
+            },
+            {
+              "id": "github-basics",
+              "label": "GitHub Basics",
+              "file": "devops/git/github.md"
+            }
+          ]
         }
       ]
     },
@@ -163,9 +225,14 @@
           "icon": "🐚",
           "topics": [
             {
-              "id": "linux-commands",
+              "id": "linux-basics",
               "label": "Essential Commands",
-              "file": "linux/commands.md"
+              "file": "linux/basics.md"
+            },
+            {
+              "id": "linux-advanced",
+              "label": "Advanced Linux",
+              "file": "linux/advanced.md"
             },
             {
               "id": "shell-scripting",
@@ -211,9 +278,85 @@
           "icon": "💾",
           "topics": [
             {
+              "id": "storage-management",
+              "label": "Storage Management",
+              "file": "homelab/storage-management.md"
+            },
+            {
+              "id": "zfs-migration",
+              "label": "ZFS Migration & Setup",
+              "file": "homelab/zfs-migration-and-setup-guide.md"
+            },
+            {
               "id": "glusterfs",
               "label": "GlusterFS Guide",
               "file": "homelab/glusterfs.md"
+            }
+          ]
+        },
+        {
+          "label": "Hardware Configuration",
+          "icon": "🔌",
+          "topics": [
+            {
+              "id": "intel-acceleration",
+              "label": "Intel Hardware Acceleration",
+              "file": "homelab/intel-hardware-acceleration.md"
+            },
+            {
+              "id": "nvidia-gpu",
+              "label": "Nvidia GPU Setup",
+              "file": "homelab/nvidia-gpu-setup.md"
+            },
+            {
+              "id": "usb-management",
+              "label": "USB Management",
+              "file": "homelab/usb-management.md"
+            }
+          ]
+        },
+        {
+          "label": "System & Administration",
+          "icon": "🖥️",
+          "topics": [
+            {
+              "id": "homelab-docs",
+              "label": "Homelab Docs",
+              "file": "homelab/homelab-docs.md"
+            },
+            {
+              "id": "docker-setup-scripts",
+              "label": "Docker Setup & Scripts",
+              "file": "homelab/docker-setup-and-scripts.md"
+            },
+            {
+              "id": "services-migration",
+              "label": "Services Migration",
+              "file": "homelab/services-migration.md"
+            },
+            {
+              "id": "system-tuning",
+              "label": "System Tuning & Monitoring",
+              "file": "homelab/system-tuning-and-monitoring.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "label": "LLM",
+      "icon": "🧠",
+      "description": "Large Language Models, local inference, and benchmarking",
+      "groups": [
+        {
+          "label": "Local LLMs",
+          "icon": "💻",
+          "topics": [
+            {
+              "id": "ollama",
+              "label": "Ollama Guide",
+              "file": "llm/ollama.md"
             }
           ]
         }
